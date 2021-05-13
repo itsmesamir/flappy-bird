@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="startup-instruction" id="before-game">
+        <div class="front-text">
+            <h2>Press 'Space Bar' to jump.</h2>
+            <h3>Each time you cross a bar your score will be updated by 1.</h3>
+            <div class="play"><img src="./images/play.png" alt="play btn"></div>
+        </div>
+    </div>
+    <div class="score" id="score">Score: <span id="score-count"></span></div>
+    <div class="game-end" id="after-game">
+        <div class="overlay">
+            <h2>Your Score:</h2><span id="current-score"></span>
+            <h2>High Score:</h2><span id="high-score"></span>
+            <h3><span id="beatHighScore"></span></h3>
+            <div class="play"><img src="./images/play.png" alt="play btn"></div>
+        </div>
+    </div>
+    <canvas></canvas>
+    <script src="./js/utility.js"></script>
+    <script src="./js/obstacle.js"></script>
+    <script src="./js/canvas.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.startup-instruction {
+    background: url(../images/start-game-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 50%;
+    height: 350px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #888888;
+    /* display: none; */
+}
+
+.front-text {
+    margin-top: 200px;
+}
+
+.heading,
+h2 {
+    margin-bottom: 15px;
+}
+
+.startup-instruction h1,
+h2,
+h4,
+p {
+    line-height: 30px;
+}
+
+.play img {
+    margin-top: 20px;
+    width: 120px;
+}
+
+.bird {
+    display: none;
+}
+
+canvas {
+    min-width: 35%;
+    margin: 10px auto;
+    position: relative;
+    display: none;
+}
+
+.score {
+    position: absolute;
+    margin: 10px;
+    left: 20px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    display: none;
+}
+
+.game-end {
+    background: url(../images/game-over-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 380px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #888888;
+    display: none;
+}
+
+.overlay {
+    background-color: #4ec0ca;
+    padding: 10px;
+    margin-top: 160px;
+}
